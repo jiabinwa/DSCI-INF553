@@ -143,7 +143,7 @@ def nonSparkVersion(review_file_path, business_file_path,topN):
         Except performing the join procedure through
         the naive approach: build it one by one
 
-        This function does not use Spark 
+        This function does not use Spark framework
     '''
     # Non-Spark Version
     id2categories = {} # business_id => categories
